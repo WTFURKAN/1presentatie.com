@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <title>PRESENTATIE</title>     
+    <link rel="stylesheet" href="school.css">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+<section class="sub-header5"> 
+        <nav>
+            <a href="index.html"><img src="image1/GO.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                  <ul>
+                      <li><a href="index.html">HOME</a></li> 
+                      <li><a href="OPLEIDING.html">OPLEIDING & VAKKEN</a></li>
+                      <li><a href="PROFIEL.html">PROFIEL</a></li>
+                      <li><a href="WAAR.html">WAAR</a></li>
+                      <li><a href="KOSTEN.html">KOSTEN</a></li>
+                      <li><a href="EXTRA.html">EXTRA INFORMATIE</a></li> 
+                  </ul>
+            </div> 
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>EXTRA INFORMATIE</h1>
+  
+        
+</section>
+
+<!----------HAKKIMIZDA COMMENT----------->   
+
+<section class="iletisim-us">
+    
+    <div class="row">
+        <div class="iletisim-col">
+            <div>
+                <i class="fa fa-home"></i>
+                <span>
+                    <h5>INFO MOMENTEN</h5>
+                    <p>PXL: 31 mei 2022 12:00-14:30
+Ugent:26 maart 2022 van 9u30 tot 12u00
+KU Leuven:23 april 2022( info dag) 4 mei 2022 (openlesdagen)</p>
+                </span>
+
+            </div>
+            
+            <div>
+                <i class="fa fa-envelope-o"></i>
+                <span>
+                    <h5>pxl@pxl.be</h5>
+                    <p>tel. +32 11 77 55 55 <br>adres: Elfde-Liniestraat 24 B-3500 HASSELT</p>
+             
+                </span>
+            </div>
+                        <div>
+                <i class="fa fa-credit-card"></i>
+                <span>
+                    <h5>Studie beurs</h5>
+                    <p>1000-2000€ <br> 400-800€ <br> 100-300€ </p>
+                </span>
+            </div>
+            
+        </div>
+        <div class="iletisim-col"></div>
+    </div>
+    
+</section>  
+    
+    <section class="iletisim-content">
+    
+    <div class="row">
+
+            
+            <div class="comment-box">
+                <h3>Nog vragen?</h3>
+                <from class="comment-form">
+                    <input type="text" placeholder="Naam">
+                    <input type="text" placeholder="Mail">
+                    <textarea rows="5" placeholder="text"></textarea>
+                    <button type="submit" class="hero-btn red-btn">Post</button>
+                </from>
+            
+            
+            
+            </div>
+            
+            
+            
+        
+        </div>
+       
+    
+    
+    
+    
+    
+    
+</section>    
+    
+
+    
+
+  
+  
+  <section class="footer">
+     <h4></h4>
+      <p></p>
+      <div class="icons">
+         <i class="fa fa-facebook"></i>
+         <i class="fa fa-twitter"></i>
+         <i class="fa fa-instagram"></i>
+         <i class="fa fa-linkedin"></i>
+      </div>
+</section> 
+    
+    
+    
+    
+<!-----------JavaScript------------>
+<script>
+        
+    var navLinks = document.getElementsById("navLinks");
+        
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+
+</script>
+    
+    
+    
+</body>
+</html>

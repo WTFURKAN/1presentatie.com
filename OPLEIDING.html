@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <title>PRESENTATIE</title>     
+    <link rel="stylesheet" href="school.css">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+<section class="sub-header"> 
+        <nav>
+            <a href="index.html"><img src="image1/GO.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                  <ul>
+                      <li><a href="index.html">HOME</a></li> 
+                      <li><a href="OPLEIDING.html">OPLEIDING & VAKKEN</a></li>
+                      <li><a href="PROFIEL.html">PROFIEL</a></li>
+                      <li><a href="WAAR.html">WAAR</a></li>
+                      <li><a href="KOSTEN.html">KOSTEN</a></li>
+                      <li><a href="EXTRA.html">EXTRA INFORMATIE</a></li> 
+                  </ul>
+            </div> 
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>OPLEIDING & VAKKEN</h1>
+  
+        
+</section>
+
+<!----------HAKKIMIZDA COMMENT----------->   
+
+  <section class="course">
+   <h1>OPLEIDING</h1>
+
+    <div class="row">
+        <div class="course-col">
+             <h1>PLAN B</h1>
+             <p>ict-appdeveloping</p>
+        </div>
+        <div class="course-col">
+             <h1>WAT?</h1>
+             <p></p>
+        </div>
+        <div class="course-col">
+             <h1>VAKKEN</h1>
+             <p>JavaScript, HTML,CSS</p>
+        </div>
+    </div>
+    
+</section>
+  <section class="hakkimizda">
+    
+      <div class="row">
+          <div class="hakkimizda-col">
+              <h1> Werkgelegenheid </h1>
+              <p>Alles met JavaScript, HTML, CSS te maken.</p>
+              <a href="ILETISIM.html" class="hero-btn red-btn">KEŞFET</a>
+          
+          </div>
+          <div class="hakkimizda-col">
+              <img src="image1/images.jpg">
+          
+          </div>
+      
+      </div>
+  
+  </section>  
+  <section class="footer">
+     <h4></h4>
+      <p></p>
+      <div class="icons">
+         <i class="fa fa-facebook"></i>
+         <i class="fa fa-twitter"></i>
+         <i class="fa fa-instagram"></i>
+         <i class="fa fa-linkedin"></i>
+      </div>
+</section> 
+    
+    
+    
+    
+<!-----------JavaScript------------>
+<script>
+        
+    var navLinks = document.getElementsById("navLinks");
+        
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+
+</script>
+    
+    
+    
+</body>
+</html>

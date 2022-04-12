@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <title>PRESENTATİE</title>     
+    <link rel="stylesheet" href="school.css">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+<section class="header"> 
+        <nav>
+            <a href="schoolpresentatie.html"><img src="image1/GO.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                  <ul>
+                      <li><a href="schoolpresentatie.html">HOME</a></li> 
+                      <li><a href="OPLEIDING.html">OPLEIDING & VAKKEN</a></li>
+                      <li><a href="PROFIEL.html">PROFIEL</a></li>
+                      <li><a href="WAAR.html">WAAR</a></li>
+                      <li><a href="KOSTEN.html">KOSTEN</a></li>
+                      <li><a href="EXTRA.html">EXTRA INFORMATIE</a></li>     
+                  </ul>
+            </div> 
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        
+<div class="text-box">
+        <h1>MIJN TOEKOMST</h1>
+        <p>Hançer Furkan Bora</p>          
+        <a href="" class="hero-btn">ict-appdeveloping</a>
+</div>    
+        
+</section>
+
+<!-----------JavaScript------------>
+<script>
+        
+    var navLinks = document.getElementsById("navLinks");
+        
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+
+</script>
+    
+    
+    
+</body>
+</html>
